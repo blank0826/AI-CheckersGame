@@ -50,5 +50,18 @@ moves.<br /><br />
 
 ## B. Objective of Each Class
 
-### 1. AlreadyOccupied.Java
-This class gives an exception when the piece is already occupied.
+### AlreadyOccupied.Java
+This class gives an exception when the piece is already occupied.<br />
+
+### Checkers.Java
+
+### Logic.Java
+
+### PieceLocation.Java
+
+### PieceType.Java
+
+### Pieces.Java
+
+### Turn.Java
+
