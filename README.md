@@ -58,79 +58,79 @@ This class initializes the game board. it sets properties for the javaFX UI and 
 This is the main class of the Checkers Game where the whole game takes place updating board, moving pieces and making all the algorithm based decisions.
 
 #### Functions Used
-**1.	Logic (int algoNum)
+**1.	Logic (int algoNum)**<br />
 Constructor to initialize the board and display appropriate messages after each move is played.
 
-**2.	public chooseAlgo(int algo, char[][] game, int depth, String player)
+**2.	public chooseAlgo(int algo, char[][] game, int depth, String player)**<br />
 Function to switch between the two algorithms.
 
-**3.	public moveMaker()
+**3.	public moveMaker()**<br />
 Function to determine which player should play when.
 
-**4.	public taken (char [][] game, int x1, int y1, int x2, int y2)
+**4.	public taken (char [][] game, int x1, int y1, int x2, int y2)**<br />
 Function to implement capturing moves by the opponent.
 
-**5.	public checkKing(char [][] game)
+**5.	public checkKing(char [][] game)**<br />
 Function to check if a piece is eligible to become a king or not.
 
-**6.	public checkPos(int x1, int y1, int x2, int y2, char[][] game, boolean errorMessage)
+**6.	public checkPos(int x1, int y1, int x2, int y2, char[][] game, boolean errorMessage)**<br />
 Function to check if a move is valid or not.
 
-**7.	public getCorrectPos(String team, char[][] game)
+**7.	public getCorrectPos(String team, char[][] game)**<br />
 Function to create a list of moves for either of the teams.
 
-**8.	public captureTurnPerformed(char[][] game, int x1, int y1, int x2, int y2)
+**8.	public captureTurnPerformed(char[][] game, int x1, int y1, int x2, int y2)**<br />
 Function to check if the move just performed was a capturing move or not.
 
-**9.	public captureTurnAt(char[][] game, int col, int row)
+**9.	public captureTurnAt(char[][] game, int col, int row)**<br />
 Function to find whether a capture move exists at the given co-ordinates or not.
 
-**10.	public checkCaptureMove(char[][] game, String player)
+**10.	public checkCaptureMove(char[][] game, String player)**<br />
 Function to check if a capture move exists anywhere on the board for a given team or not.
 
-**11.	public updateGame(int x1, int y1, int x2, int y2)
+**11.	public updateGame(int x1, int y1, int x2, int y2)**<br />
 Function to update the underlying board representation.
 
-**12.	public alterGUI()
+**12.	public alterGUI()**<br />
 Function to update the GUI of the board.
 
-**13.	public randomAlgo(char[][] game, String player)
+**13.	public randomAlgo(char[][] game, String player)**<br />
 Function which contains the logic for “Random” algorithm.
 
-**14.	public minimaxAlgo(char[][] game,int depth, String player)
+**14.	public minimaxAlgo(char[][] game,int depth, String player)**<br />
 Function which contains the logic for “Minimax” algorithm.
 
-**15.	public AMove(char[][] game, int x1, int y1, int x2, int y2)
+**15.	public AMove(char[][] game, int x1, int y1, int x2, int y2)**<br />
 Function to move a piece within the board in random algorithm.
 
-**16.	public getPoints(char[][] game, String winningPlayer)
+**16.	public getPoints(char[][] game, String winningPlayer)**<br />
 Function to return the real-time score of either of the players.
 
-**17.	public blackWon()
+**17.	public blackWon()**<br />
 Function to check if Black (Human) won or not.
 
-**18.	public whiteWon()
+**18.	public whiteWon()**<br />
 Function to check if White (AI) won or not.
 
-**19.	public changePlayer(String player)
+**19.	public changePlayer(String player)**<br />
 Function used in Minimax algorithm to switch between MIN and MAX players.
 
-**20.	public resetGame()
+**20.	public resetGame()**<br />
 Function to reset the game.
 
-**21.	public putPieces(Pieces piece, int u, int v)
+**21.	public putPieces(Pieces piece, int u, int v)**<br />
 Function to put the pieces back to their initial positions once the game resets.
 
-**22.	protected paintComponent(Graphics graphics)
+**22.	protected paintComponent(Graphics graphics)**<br />
 Function to paint the pieces Black and White respectively.
 
-**23.	private paintGame(Graphics graphics)
+**23.	private paintGame(Graphics graphics)**<br />
 Function to paint the board blocks as required by the game.
 
-**24.	public getPreferredSize()
+**24.	public getPreferredSize()**<br />
 Function to pass on the size of blocks of the board.
 
-**25.	public getGame()
+**25.	public getGame()**<br />
 Function to prevent the use of white blocks while playing the game i.e., it provides the suitable format of the board for checkers.
 
 
