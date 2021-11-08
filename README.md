@@ -67,73 +67,96 @@ Constructor to initialize the board and display appropriate messages after each 
 Function to switch between the two algorithms.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**3.	public moveMaker()**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to determine which player should play when.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function to determine which player should play when.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**4.	public taken (char [][] game, int x1, int y1, int x2, int y2)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to implement capturing moves by the opponent.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function to implement capturing moves by the opponent.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**5.	public checkKing(char [][] game)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to check if a piece is eligible to become a king or not.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function to check if a piece is eligible to become a king or not.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**6.	public checkPos(int x1, int y1, int x2, int y2, char[][] game, boolean errorMessage)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to check if a move is valid or not.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function to check if a move is valid or not.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**7.	public getCorrectPos(String team, char[][] game)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to create a list of moves for either of the teams.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function to create a list of moves for either of the teams.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**8.	public captureTurnPerformed(char[][] game, int x1, int y1, int x2, int y2)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to check if the move just performed was a capturing move or not.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function to check if the move just performed was a capturing move or not.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**9.	public captureTurnAt(char[][] game, int col, int row)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to find whether a capture move exists at the given co-ordinates or not.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function to find whether a capture move exists at the given co-ordinates or not.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**10.	public checkCaptureMove(char[][] game, String player)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to check if a capture move exists anywhere on the board for a given team or not.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function to check if a capture move exists anywhere on the board for a given team or not.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**11.	public updateGame(int x1, int y1, int x2, int y2)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to update the underlying board representation.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function to update the underlying board representation.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**12.	public alterGUI()**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to update the GUI of the board.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function to update the GUI of the board.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**13.	public randomAlgo(char[][] game, String player)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function which contains the logic for “Random” algorithm.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function which contains the logic for “Random” algorithm.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**14.	public minimaxAlgo(char[][] game,int depth, String player)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function which contains the logic for “Minimax” algorithm.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function which contains the logic for “Minimax” algorithm.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**15.	public AMove(char[][] game, int x1, int y1, int x2, int y2)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to move a piece within the board in random algorithm.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function to move a piece within the board in random algorithm.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**16.	public getPoints(char[][] game, String winningPlayer)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to return the real-time score of either of the players.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function to return the real-time score of either of the players.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**17.	public blackWon()**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to check if Black (Human) won or not.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function to check if Black (Human) won or not.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**18.	public whiteWon()**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to check if White (AI) won or not.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function to check if White (AI) won or not.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**19.	public changePlayer(String player)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function used in Minimax algorithm to switch between MIN and MAX players.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function used in Minimax algorithm to switch between MIN and MAX players.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**20.	public resetGame()**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to reset the game.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function to reset the game.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**21.	public putPieces(Pieces piece, int u, int v)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to put the pieces back to their initial positions once the game resets.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function to put the pieces back to their initial positions once the game resets.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**22.	protected paintComponent(Graphics graphics)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to paint the pieces Black and White respectively.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function to paint the pieces Black and White respectively.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**23.	private paintGame(Graphics graphics)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to paint the board blocks as required by the game.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function to paint the board blocks as required by the game.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**24.	public getPreferredSize()**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to pass on the size of blocks of the board.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function to pass on the size of blocks of the board.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**25.	public getGame()**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to prevent the use of white blocks while playing the game i.e., it provides the suitable format of the board for checkers.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function to prevent the use of white blocks while playing the game i.e., it provides the suitable format of the board for checkers.
 
 
 ### 4. [PieceLocation](https://github.com/blank0826/AI-CheckersGame/blob/master/PieceLocation.java)
