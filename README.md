@@ -206,10 +206,10 @@ These keep in the coordinates of the piece. Coordinates of the current position 
 ### <ins>Pre-Requisites</ins>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An IDE that supports Java and JavaFX.
 ### <ins>Installation and Execution</ins>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Pull this code into any folder.
-2. Open this folder in your preferred file.
-3. Build the Project.
-4. Run the [Logic.java](https://github.com/blank0826/AI-CheckersGame/blob/master/Logic.java) file and your checkers board will be displayed.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Pull this code into any folder.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Open this folder in your preferred file.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Build the Project.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Run the [Logic.java](https://github.com/blank0826/AI-CheckersGame/blob/master/Logic.java) file and your checkers board will be displayed.<br />
 
 
 ## Screenshots of the Gameplay
