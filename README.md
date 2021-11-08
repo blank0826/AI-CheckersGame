@@ -15,13 +15,13 @@ First we will define the rules of a Checkers Game and then will describe the obj
        an immediately neighbor vacant square.<br />
 
 ### Capturing Movement Rules:
-    4. To capture the opponent’s piece, a man moves from one square over a diagonally
+    1. To capture the opponent’s piece, a man moves from one square over a diagonally
         adjacent and forward square that is occupied by an opponent’s piece and on to a
         vacant square immediately beyond it. On completion of the jump the captured
         piece is removed from the board.<br />
-    5. The capturing movement of a king is similar to a man, but it can move both
+    2. The capturing movement of a king is similar to a man, but it can move both
         directions, forward and backward direction.<br />
-    6. The capturing move of the piece (man or king) is continued until all the jumps are
+    3. The capturing move of the piece (man or king) is continued until all the jumps are
         completed.<br />
 **Exception: if a man reaches the king-row by means of a capturing move, it then becomes
 a king but may not make any further jumps in the same turn.**<br />
