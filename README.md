@@ -1,7 +1,7 @@
 # AI-CheckersGame
 This is an AI-Human played Checkers Game where you can choose of which algorithm to use while playing whether be it random or mini-max.
 
-First we will define the rules of a Checkers Game and then will describe the objective of Each Class.
+First we will define the rules of a Checkers Game and then will describe the objective of Each Class on how it helps in creating the gameplay.
 
 ## A. Rules
 
@@ -48,7 +48,7 @@ during the previous 50 moves.<br />
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. No pieces have been removed from the board during the previous 50
 moves.<br />
 
-## B. Objective of Various Classes
+## B. Objective of Each Class
 
 ### AlreadyOccupied.Java
 This class gives an exception when the piece is already occupied.
