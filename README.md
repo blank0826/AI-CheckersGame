@@ -207,21 +207,24 @@ These keep in the coordinates of the piece. Coordinates of the current position 
 
 
 ### Menu 
-**<ins>Algorithms</ins>**<br />
+**<ins>Algorithms</ins>**<br /><br />
 <img src="https://user-images.githubusercontent.com/33955028/140733721-30040e87-76bc-417d-a835-b0f55ed22c06.png" width="450" height="450">
 
 
-**<ins>Settings</ins>**<br />
+**<ins>Settings</ins>**<br /><br />
 <img src="https://user-images.githubusercontent.com/33955028/140733745-211690b1-f4e1-4fe3-8687-4bfd503fd516.png" width="450" height="450">
 
 
 ### First Move
-After the human moves the AI will move automatically
+After the human moves the AI will move automatically<br /><br />
+
+Random Algorithm
+<img src="https://user-images.githubusercontent.com/33955028/140734707-b187088b-b7db-4870-a320-75e807aac10f.png" width="450" height="450">
 
 ### Middle of the Match
 
-### Win Condition
+<img src="https://user-images.githubusercontent.com/33955028/140734897-c83482a1-8422-4873-ab6c-a8da5df2b9c5.png" width="450" height="450">
 
-### Lose Condition
+### Win Condition
 
 ### Draw Condition
