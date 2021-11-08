@@ -59,16 +59,16 @@ This is the main class of the Checkers Game where the whole game takes place upd
 
 **<ins>Functions Used</ins>**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1.	Logic (int algoNum)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Constructor to initialize the board and display appropriate messages after each move is played.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Constructor to initialize the board and display appropriate messages after each move is played.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.	public chooseAlgo(int algo, char[][] game, int depth, String player)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to switch between the two algorithms.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to switch between the two algorithms.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**3.	public moveMaker()**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to determine which player should play when.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to determine which player should play when.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**4.	public taken (char [][] game, int x1, int y1, int x2, int y2)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to implement capturing moves by the opponent.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to implement capturing moves by the opponent.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**5.	public checkKing(char [][] game)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to check if a piece is eligible to become a king or not.
