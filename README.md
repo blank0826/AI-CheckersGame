@@ -1,7 +1,7 @@
 # AI-CheckersGame
-This is an AI-Human played Checkers Game where you can choose of which algorithm to use while playing whether be it random or mini-max.
+This is an AI-Human played Checkers Game where you can choose which algorithm to use while playing whether be it random or mini-max.
 
-First we will define the rules of a Checkers Game and then will describe the objective of Each Class on how it helps in creating the gameplay.
+First, we will define the rules of a Checkers Game and then will describe the objective of Each Class on how it helps in creating the gameplay.
 
 ## A. Rules
 
@@ -17,20 +17,13 @@ First we will define the rules of a Checkers Game and then will describe the obj
 
 ### <ins>Capturing Movement Rules</ins><br />
 **While capturing:**<br />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. To capture the opponent’s piece, a man moves from one square over a diagonally
-        adjacent and forward square that is occupied by an opponent’s piece and on to a
-        vacant square immediately beyond it. On completion of the jump the captured
-        piece is removed from the board.<br />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. The capturing movement of a king is similar to a man, but it can move both
-        directions, forward and backward direction.<br />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. The capturing move of the piece (man or king) is continued until all the jumps are
-        completed.<br /><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. To capture the opponent’s piece, a man moves from one square over a diagonally adjacent and forward square that is occupied by an opponent’s piece and onto a
+        vacant square immediately beyond it. On completion of the jump, the captured piece is removed from the board.<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. The capturing movement of a king is similar to a man, but it can move in both directions, forward and backward direction.<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. The capturing move of the piece (man or king) is continued until all the jumps are completed.<br /><br />
 **Exception: if a man reaches the king-row by means of a capturing move, it then becomes
 a king but may not make any further jumps in the same turn.**<br /><br />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. All capturing moves are compulsory, whether offered actively or passively. If
-        there are two or more ways to jump, a player might select any one he wishes, not
-        necessarily that which gains most pieces. Once started, a multiple jump must be
-        carried through to completion.<br /><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. All capturing moves are compulsory, whether offered actively or passively. If there are two or more ways to jump, a player might select anyone he wishes, not necessarily that which gains most pieces. Once started, multiple jumps must be carried through to completion.<br /><br />
         
 ### <ins>Definition of a Win</ins>
 
@@ -77,4 +70,4 @@ These help to create each piece in the game. The main two functions used in this
 
 ### Turn.Java
 ----
-These keep in the coordinates of the piece. Coordinates of current position and to where the piece has moved.
+These keep in the coordinates of the piece. Coordinates of the current position and to where the piece has moved.
