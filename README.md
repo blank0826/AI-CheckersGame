@@ -201,4 +201,17 @@ These help to create each piece in the game. The main two functions used in this
 These keep in the coordinates of the piece. Coordinates of the current position and to where the piece has moved.
 
 ## Screenshots of the Gameplay
+### Initial Board
 
+### Menu 
+
+### First Move
+After the human moves the AI will move automatically
+
+### Middle of the Match
+
+### Win Condition
+
+### Lose Condition
+
+### Draw Condition
