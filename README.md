@@ -47,13 +47,13 @@ moves.<br /><br />
 ----
 This class gives an exception when the piece is already occupied.<br />
 
-### Checkers.Java
+### [Checkers.Java](https://github.com/blank0826/AI-CheckersGame/blob/master/Checkers.java)
 ----
 This class initializes the game board. it sets properties for the javaFX UI and adds menu giving the option of Algorithms and Settings.<br /><br />
 **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. <ins>Algorithms:-</ins>** Random and Mini-max Algorithms.<br /><br/>
 **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <ins>Settings:-</ins>** Reset and Exit.<br />
 
-### Logic.Java
+### [Logic.Java](https://github.com/blank0826/AI-CheckersGame/blob/master/Logic.java)
 ----
 This is the main class of the Checkers Game where the whole game takes place updating board, moving pieces and making all the algorithm based decisions.
 
@@ -134,11 +134,11 @@ Function to pass on the size of blocks of the board.
 Function to prevent the use of white blocks while playing the game i.e., it provides the suitable format of the board for checkers.
 
 
-### PieceLocation.Java
+### [PieceLocation.Java](https://github.com/blank0826/AI-CheckersGame/blob/master/PieceLocation.java)
 ----
 This class keeps in the current location and checks if there is any piece left to catch or not.
 
-### PieceType.Java
+### [PieceType.Java](https://github.com/blank0826/AI-CheckersGame/blob/master/PieceType.java)
 ----
 This contains all the types of pieces that can be on the board. This includes:<br />
 1. BLACK_KING
@@ -146,7 +146,7 @@ This contains all the types of pieces that can be on the board. This includes:<b
 3. WHITE_REGULAR
 4. WHITE_KING
 
-### Pieces.Java
+### [Pieces.Java](https://github.com/blank0826/AI-CheckersGame/blob/master/Pieces.java)
 ----
 These help to create each piece in the game. The main two functions used in this class:
 ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. public void make(Graphics graphics, int j, int i)
@@ -155,6 +155,6 @@ These help to create each piece in the game. The main two functions used in this
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. public static boolean within(int a, int b, int j, int i)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   This checks if the piece is moving it stays within the board and doesn't try to move beyond the range of it.
 
-### Turn.Java
+### [Turn.Java](https://github.com/blank0826/AI-CheckersGame/blob/master/Turn.java)
 ----
 These keep in the coordinates of the piece. Coordinates of the current position and to where the piece has moved.
