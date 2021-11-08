@@ -201,11 +201,11 @@ These help to create each piece in the game. The main two functions used in this
 ----
 These keep in the coordinates of the piece. Coordinates of the current position and to where the piece has moved.
 
-## C. Getting Started
+# Getting Started
 
-### <ins>Pre-Requisites</ins>
+## <ins>Pre-Requisites</ins>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An IDE that supports Java and JavaFX.
-### <ins>Installation and Execution</ins>
+## <ins>Installation and Execution</ins>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Pull this code into any folder.<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Open this folder in your preferred file.<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Build the Project.<br />
