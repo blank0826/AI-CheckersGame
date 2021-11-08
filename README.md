@@ -244,4 +244,4 @@ After the human moves, the AI will move automatically<br /><br />
 
 # Contact
 ### Aditya Srivastava
-### [G-Mail](mailto:aditya26052002@gmail.com)
+### [G-Mail](mailto:aditya26052002@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
