@@ -199,3 +199,6 @@ These help to create each piece in the game. The main two functions used in this
 ### 7. [Turn](https://github.com/blank0826/AI-CheckersGame/blob/master/Turn.java)
 ----
 These keep in the coordinates of the piece. Coordinates of the current position and to where the piece has moved.
+
+## Screenshots of the Gameplay
+
