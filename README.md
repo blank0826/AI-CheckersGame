@@ -203,7 +203,8 @@ These keep in the coordinates of the piece. Coordinates of the current position 
 ## Screenshots of the Gameplay
 ### Initial Board
 
-![image](https://user-images.githubusercontent.com/33955028/140733653-8bd93c39-a3d8-4f6e-aaa0-ef4c91dcad36.png =100x100)
+<img src="https://user-images.githubusercontent.com/33955028/140733653-8bd93c39-a3d8-4f6e-aaa0-ef4c91dcad36.png" width="100" height="100">
+
 
 ### Menu 
 **<ins>Algorithms</ins>**<br />
