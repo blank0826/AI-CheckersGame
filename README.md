@@ -96,27 +96,27 @@ Function to find whether a capture move can be done at the given co-ordinates or
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**10.	public checkCaptureMove(char[][] game, String player)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Function to check if a capture move exists anywhere on the board for a given team or not.
+Function to check if a capture move exists anywhere on the board for a any player.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**11.	public updateGame(int x1, int y1, int x2, int y2)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Function to update the underlying board representation.
+Function that updates the game board matrix after each move.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**12.	public alterGUI()**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Function to update the GUI of the board.
+Function that updates the GUI of the board.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**13.	public randomAlgo(char[][] game, String player)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Function which contains the logic for “Random” algorithm.
+This is the random algorithm and it choose any random possible turn possible by the AI in the game.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**14.	public minimaxAlgo(char[][] game,int depth, String player)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Function which contains the logic for “Minimax” algorithm.
+This is the minimax algorithm which contains a depth i.e., how much in the future will the algorithm look for the best possible turn.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**15.	public AMove(char[][] game, int x1, int y1, int x2, int y2)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Function to move a piece within the board in random algorithm.
+Function to move a piece within the board.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**16.	public getPoints(char[][] game, String winningPlayer)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
