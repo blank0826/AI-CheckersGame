@@ -43,17 +43,17 @@ moves.<br /><br />
 
 ## B. Objective of Each Class
 
-### [AlreadyOccupied.Java](https://github.com/blank0826/AI-CheckersGame/blob/master/AlreadyOccupiedException.java)
+### 1. [AlreadyOccupied.Java](https://github.com/blank0826/AI-CheckersGame/blob/master/AlreadyOccupiedException.java)
 ----
 This class gives an exception when the piece is already occupied.<br />
 
-### [Checkers.Java](https://github.com/blank0826/AI-CheckersGame/blob/master/Checkers.java)
+### 2. [Checkers.Java](https://github.com/blank0826/AI-CheckersGame/blob/master/Checkers.java)
 ----
 This class initializes the game board. it sets properties for the javaFX UI and adds menu giving the option of Algorithms and Settings.<br /><br />
 **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. <ins>Algorithms:-</ins>** Random and Mini-max Algorithms.<br /><br/>
 **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <ins>Settings:-</ins>** Reset and Exit.<br />
 
-### [Logic.Java](https://github.com/blank0826/AI-CheckersGame/blob/master/Logic.java)
+### 3. [Logic.Java](https://github.com/blank0826/AI-CheckersGame/blob/master/Logic.java)
 ----
 This is the main class of the Checkers Game where the whole game takes place updating board, moving pieces and making all the algorithm based decisions.
 
