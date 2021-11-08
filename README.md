@@ -5,12 +5,12 @@ This has been designed so that if for 50 moves no piece is captured or no piece 
 First we will define the rules of a Checkers Game and then will describe the objective of Each Class.
 
 ### Movement Rules:
- **A. The ordinary movement of a man:**<br />
+ **The ordinary movement of a man:**<br />
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. A man moves diagonally forward left or right from one square to an immediately
            neighboring vacant square.<br />
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. When a man reaches the farthest row forward (the king-row: top or bottom row
           for opponent player – marked with red in the diagram)</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;it becomes a king.<br /><br />
- **B. The ordinary movement of a king (crowned man):**<br />
+ **The ordinary movement of a king (crowned man):**<br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. The king moves from one square diagonally forward or backward, left or right, to
        an immediately neighbor vacant square.<br /><br />
 
