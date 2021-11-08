@@ -55,12 +55,16 @@ moves.<br /><br />
 This class gives an exception when the piece is already occupied.<br />
 
 ### Checkers.Java
+----
 
 ### Logic.Java
+----
 
 ### PieceLocation.Java
+----
 
 ### PieceType.Java
+----
 
 ### Pieces.Java
 ----
