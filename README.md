@@ -60,7 +60,7 @@ This is the main class of the Checkers Game where the whole game takes place upd
 ### **<ins>Functions Used</ins>**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1.	Logic (int algoNum)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Constructor to initialize the board, maintain what functions to be called whenever a piece is moved or 
+Constructor to initialize the board, maintain what functions to be called whenever a piece is moved or <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 selected, display appropriate messages after each move is played.
 
