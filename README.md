@@ -41,9 +41,9 @@ been captured or his remaining pieces are all blocked.<br />
 **Sometimes the game may lead to a draw, then**<br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9. The 50-move rule: The game shall be declared drawn if, at any stage of the game
          satisfy one of the followings:<br />
-      &nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. Neither player has advanced an uncrowned man towards the king-row
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. Neither player has advanced an uncrowned man towards the king-row
 during the previous 50 moves.<br />
-      &nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. No pieces have been removed from the board during the previous 50
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. No pieces have been removed from the board during the previous 50
 moves.<br />
 
 ## AlreadyOccupied.Java
