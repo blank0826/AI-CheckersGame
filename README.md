@@ -1,3 +1,3 @@
 # AI-CheckersGame
-##AlreadyOccupied.Java
+## AlreadyOccupied.Java
 This class gives an exception when the piece is already occupied.
