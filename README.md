@@ -30,14 +30,14 @@ a king but may not make any further jumps in the same turn.**<br /><br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. All capturing moves are compulsory, whether offered actively or passively. If
         there are two or more ways to jump, a player might select any one he wishes, not
         necessarily that which gains most pieces. Once started, a multiple jump must be
-        carried through to completion.<br />
+        carried through to completion.<br /><br />
         
 ### <ins>Definition of a Win</ins>
 
 **In the end,**<br />
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8. The winner of the game is one who can make the last move; that is, no move is
 available to the opponent on his turn to play, either because all his pieces have
-been captured or his remaining pieces are all blocked.<br />
+been captured or his remaining pieces are all blocked.<br /><br />
 ### <ins>Definition of a Draw</ins>
 
 **Sometimes the game may lead to a draw, then**<br />
@@ -46,7 +46,7 @@ been captured or his remaining pieces are all blocked.<br />
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. Neither player has advanced an uncrowned man towards the king-row
 during the previous 50 moves.<br />
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. No pieces have been removed from the board during the previous 50
-moves.<br />
+moves.<br /><br />
 
 ## B. Objective of Each Class
 
