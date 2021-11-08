@@ -41,7 +41,7 @@ been captured or his remaining pieces are all blocked.<br /><br />
 ### <ins>Definition of a Draw</ins>
 
 **Sometimes the game may lead to a draw, then**<br />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9. The 50-move rule: The game shall be declared drawn if, at any stage of the game
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9. **<ins>The 50-move rule:</ins>** The game shall be declared drawn if, at any stage of the game
          satisfy one of the followings:<br />
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. Neither player has advanced an uncrowned man towards the king-row
 during the previous 50 moves.<br />
