@@ -5,7 +5,7 @@ First we will define the rules of a Checkers Game and then will describe the obj
 
 ## A. Rules
 
-### <ins>Movement Rules:</ins>
+### <ins>Movement Rules</ins>
  **The ordinary movement of a man:**<br />
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. A man moves diagonally forward left or right from one square to an immediately
            neighboring vacant square.<br />
@@ -15,7 +15,7 @@ First we will define the rules of a Checkers Game and then will describe the obj
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. The king moves from one square diagonally forward or backward, left or right, to
        an immediately neighbor vacant square.<br /><br />
 
-### <ins>Capturing Movement Rules:</ins><br />
+### <ins>Capturing Movement Rules</ins><br />
 **While capturing:**<br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. To capture the opponent’s piece, a man moves from one square over a diagonally
         adjacent and forward square that is occupied by an opponent’s piece and on to a
