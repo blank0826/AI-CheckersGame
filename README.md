@@ -34,17 +34,17 @@ a king but may not make any further jumps in the same turn.**<br /><br />
 ### Definition of a Win
 
 **In the end,**<br />
-    8. The winner of the game is one who can make the last move; that is, no move is
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8. The winner of the game is one who can make the last move; that is, no move is
 available to the opponent on his turn to play, either because all his pieces have
 been captured or his remaining pieces are all blocked.<br />
 ### Definition of a Draw
 
-**Sometimes teh game may lead to a draw, then**<br />
-    9. The 50-move rule: The game shall be declared drawn if, at any stage of the game
+**Sometimes the game may lead to a draw, then**<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9. The 50-move rule: The game shall be declared drawn if, at any stage of the game
          satisfy one of the followings:<br />
-      a. Neither player has advanced an uncrowned man towards the king-row
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Neither player has advanced an uncrowned man towards the king-row
 during the previous 50 moves.<br />
-      b. No pieces have been removed from the board during the previous 50
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. No pieces have been removed from the board during the previous 50
 moves.<br />
 
 ## AlreadyOccupied.Java
