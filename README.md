@@ -58,6 +58,11 @@ This class gives an exception when the piece is already occupied.<br />
 
 ### PieceType.Java
 ----
+This contains all the types of pieces that can be on the board. This includes:
+1. BLACK_KING
+2. BLACK_REGULAR
+3. WHITE_REGULAR
+4. WHITE_KING
 
 ### Pieces.Java
 ----
