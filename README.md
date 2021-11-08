@@ -5,7 +5,7 @@ First we will define the rules of a Checkers Game and then will describe the obj
 
 ## A. Rules
 
-### Movement Rules:
+### <ins>Movement Rules:</ins>
  **The ordinary movement of a man:**<br />
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. A man moves diagonally forward left or right from one square to an immediately
            neighboring vacant square.<br />
@@ -15,7 +15,7 @@ First we will define the rules of a Checkers Game and then will describe the obj
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. The king moves from one square diagonally forward or backward, left or right, to
        an immediately neighbor vacant square.<br /><br />
 
-### Capturing Movement Rules:<br />
+### <ins>Capturing Movement Rules:</ins><br />
 **While capturing:**<br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. To capture the opponent’s piece, a man moves from one square over a diagonally
         adjacent and forward square that is occupied by an opponent’s piece and on to a
@@ -32,13 +32,13 @@ a king but may not make any further jumps in the same turn.**<br /><br />
         necessarily that which gains most pieces. Once started, a multiple jump must be
         carried through to completion.<br />
         
-### Definition of a Win
+### <ins>Definition of a Win</ins>
 
 **In the end,**<br />
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8. The winner of the game is one who can make the last move; that is, no move is
 available to the opponent on his turn to play, either because all his pieces have
 been captured or his remaining pieces are all blocked.<br />
-### Definition of a Draw
+### <ins>Definition of a Draw</ins>
 
 **Sometimes the game may lead to a draw, then**<br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9. The 50-move rule: The game shall be declared drawn if, at any stage of the game
