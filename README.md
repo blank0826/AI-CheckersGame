@@ -3,6 +3,8 @@ This is an AI-Human played Checkers Game where you can choose of which algorithm
 
 First we will define the rules of a Checkers Game and then will describe the objective of Each Class.
 
+## A. Rules
+
 ### Movement Rules:
  **The ordinary movement of a man:**<br />
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. A man moves diagonally forward left or right from one square to an immediately
@@ -45,6 +47,8 @@ been captured or his remaining pieces are all blocked.<br />
 during the previous 50 moves.<br />
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. No pieces have been removed from the board during the previous 50
 moves.<br />
+
+## B. Objective of Various Classes
 
 ## AlreadyOccupied.Java
 This class gives an exception when the piece is already occupied.
