@@ -43,9 +43,7 @@ moves.<br /><br />
 
 ## B. Objective of Each Class
 
-[Link to Google](https://www.google.com)
-
-### AlreadyOccupied.Java
+### [AlreadyOccupied.Java](https://github.com/blank0826/AI-CheckersGame/blob/master/AlreadyOccupiedException.java)
 ----
 This class gives an exception when the piece is already occupied.<br />
 
