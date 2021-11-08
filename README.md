@@ -218,7 +218,6 @@ These keep in the coordinates of the piece. Coordinates of the current position 
 ### First Move
 After the human moves the AI will move automatically<br /><br />
 
-Random Algorithm
 <img src="https://user-images.githubusercontent.com/33955028/140734707-b187088b-b7db-4870-a320-75e807aac10f.png" width="450" height="450">
 
 ### Middle of the Match
