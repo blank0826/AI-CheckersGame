@@ -43,6 +43,8 @@ moves.<br /><br />
 
 ## B. Objective of Each Class
 
+[Link to Google](https://www.google.com)
+
 ### AlreadyOccupied.Java
 ----
 This class gives an exception when the piece is already occupied.<br />
