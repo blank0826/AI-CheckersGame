@@ -1,5 +1,5 @@
 # AI-CheckersGame
-This is an AI-Human played Checkers Game where you can choose which algorithm to use while playing whether be it random or mini-max. The GUI has been created through **JAVAFX** and code written through **JAVA**.
+This is an AI-Human played Checkers Game where you can choose which algorithm to use while playing whether be it random or mini-max. The GUI has been created through **JavaFX** and code written through **JAVA**.
 
 First, we will define the rules of a Checkers Game and then will describe the objective of Each Class on how it helps in creating the gameplay.
 
@@ -55,7 +55,7 @@ This class initializes the game board. it sets properties for the javaFX UI and 
 
 ### 3. [Logic](https://github.com/blank0826/AI-CheckersGame/blob/master/Logic.java)
 ----
-This is the main class of the Checkers Game where the whole game takes place updating board, moving pieces and making all the algorithm based decisions.
+This is the main class of the Checkers Game where the whole game takes place updating the board, moving pieces, and making all the algorithm-based decisions.
 
 ### **<ins>Functions Used</ins>**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1.	Logic (int algoNum)**<br />
@@ -216,7 +216,7 @@ These keep in the coordinates of the piece. Coordinates of the current position 
 
 
 ### First Move
-After the human moves the AI will move automatically<br /><br />
+After the human moves, the AI will move automatically<br /><br />
 
 <img src="https://user-images.githubusercontent.com/33955028/140734707-b187088b-b7db-4870-a320-75e807aac10f.png" width="450" height="450">
 
@@ -229,4 +229,3 @@ After the human moves the AI will move automatically<br /><br />
 
 ### Draw Condition
 <img src="https://user-images.githubusercontent.com/33955028/140735044-eadb4d1d-bdf3-48ad-9ab1-3f721849f577.png" width="450" height="450">
-
