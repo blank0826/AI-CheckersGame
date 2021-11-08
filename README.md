@@ -71,7 +71,7 @@ This contains all the types of pieces that can be on the board. This includes:<b
 ### Pieces.Java
 ----
 These help to create each piece in the game. The main two functions used in this class:
-####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public void make(Graphics graphics, int j, int i)
+####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- public void make(Graphics graphics, int j, int i)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   This one gets the graphics and create the piece at the location (i, j) on the board.
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>public static boolean within(int a, int b, int j, int i)</ins>
