@@ -50,8 +50,8 @@ This class gives an exception when the piece is already occupied.<br />
 ### Checkers.Java
 ----
 This class initializes the game board. it sets properties for the javaFX UI and adds menu giving the option of Algorithms and Settings.<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. <ins>Algorithms:-</ins> Random and Mini-max Algorithms.<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <ins>Settings:-</ins> Reset and Exit.<br />
+**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. <ins>Algorithms:-</ins>** Random and Mini-max Algorithms.<br />
+**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <ins>Settings:-</ins>** Reset and Exit.<br />
 
 ### Logic.Java
 ----
@@ -62,7 +62,7 @@ This class keeps in the current location and checks if there is any piece left t
 
 ### PieceType.Java
 ----
-This contains all the types of pieces that can be on the board. This includes:
+This contains all the types of pieces that can be on the board. This includes:<br />
 1. BLACK_KING
 2. BLACK_REGULAR
 3. WHITE_REGULAR
