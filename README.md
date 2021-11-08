@@ -201,6 +201,17 @@ These help to create each piece in the game. The main two functions used in this
 ----
 These keep in the coordinates of the piece. Coordinates of the current position and to where the piece has moved.
 
+## C. Getting Started
+
+### Pre-Requisites
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An IDE that supports Java and JavaFX.
+### Installation and Execution
+1. 
+
+### 1. [AlreadyOccupied](https://github.com/blank0826/AI-CheckersGame/blob/master/AlreadyOccupiedException.java)
+----
+This class gives an exception when the piece is already occupied.<br />
+
 ## Screenshots of the Gameplay
 ### Initial Board
 
