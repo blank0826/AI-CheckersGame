@@ -201,7 +201,7 @@ These help to create each piece in the game. The main two functions used in this
 ----
 These keep in the coordinates of the piece. Coordinates of the current position and to where the piece has moved.
 
-# Getting Started
+# Local Setup
 
 ## Pre-Requisites
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An IDE that supports Java and JavaFX.
