@@ -15,24 +15,25 @@ First we will define the rules of a Checkers Game and then will describe the obj
        an immediately neighbor vacant square.<br /><br />
 
 ### Capturing Movement Rules:<br />
-**While capturing**<br />
-    4. To capture the opponent’s piece, a man moves from one square over a diagonally
+**While capturing:**<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. To capture the opponent’s piece, a man moves from one square over a diagonally
         adjacent and forward square that is occupied by an opponent’s piece and on to a
         vacant square immediately beyond it. On completion of the jump the captured
         piece is removed from the board.<br />
-    5. The capturing movement of a king is similar to a man, but it can move both
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. The capturing movement of a king is similar to a man, but it can move both
         directions, forward and backward direction.<br />
-    6. The capturing move of the piece (man or king) is continued until all the jumps are
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. The capturing move of the piece (man or king) is continued until all the jumps are
         completed.<br />
 **Exception: if a man reaches the king-row by means of a capturing move, it then becomes
 a king but may not make any further jumps in the same turn.**<br />
-    7. All capturing moves are compulsory, whether offered actively or passively. If
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. All capturing moves are compulsory, whether offered actively or passively. If
         there are two or more ways to jump, a player might select any one he wishes, not
         necessarily that which gains most pieces. Once started, a multiple jump must be
         carried through to completion.<br />
         
 ### Definition of a Win
 
+**In the end,**
     8. The winner of the game is one who can make the last move; that is, no move is
 available to the opponent on his turn to play, either because all his pieces have
 been captured or his remaining pieces are all blocked.<br />
