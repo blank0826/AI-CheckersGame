@@ -70,23 +70,33 @@ Function defined so as to switch between the two algorithms.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**3.	public moveMaker()**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Function that determines how the player has moved and then will play for the AI based on the algorithm that we have choosen.
+Function that determines how the player has moved and then will play for the AI based on the algorithm <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+that we have choosen.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**4.	public taken (char [][] game, int x1, int y1, int x2, int y2)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Function implements the feature of capturing a piece. It checks which piece has been captured re-adjust the board and pieces according to that. Also sees whether the piece should be converted to a king or not.
+Function implements the feature of capturing a piece. It checks which piece has been captured re-adjust <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+the board and pieces according to that. Also sees whether the piece should be converted to a king or not.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**5.	public checkKing(char [][] game)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Function to check if the piece has landed on the last row of its opponent and if it has it should be converted to a king.
+Function to check if the piece has landed on the last row of its opponent and if it has it should be <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+converted to a king.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**6.	public checkPos(int x1, int y1, int x2, int y2, char[][] game, boolean errorMessage)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-This ensures that if a piece can be captured then no other move can be made. Besides that it also checks that if the piece that is being moved stays within the limits or is not breaking the rules of the game.
+This ensures that if a piece can be captured then no other move can be made. Besides that it also checks <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+that if the piece that is being moved stays within the limits or is not breaking the rules of the game.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**7.	public getCorrectPos(String team, char[][] game)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Functions checks for all the possible moves for capturing a piece and if no piece can be captured then it will just look for possible moves that can be done in the game. This is used when the AI has to play its chance. 
+Functions checks for all the possible moves for capturing a piece and if no piece can be captured then it <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+will just look for possible moves that can be done in the game. This is used when the AI has to play its chance. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**8.	public captureTurnPerformed(char[][] game, int x1, int y1, int x2, int y2)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -114,7 +124,9 @@ This is the random algorithm and it choose any random possible turn possible by 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**14.	public minimaxAlgo(char[][] game,int depth, String player)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-This is the minimax algorithm which contains a depth i.e., how much in the future will the algorithm look for the best possible turn.
+This is the minimax algorithm which contains a depth i.e., how much in the future will the algorithm look <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+for the best possible turn.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**15.	public AMove(char[][] game, int x1, int y1, int x2, int y2)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -158,7 +170,9 @@ Function to pass on the size of blocks of the board.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**25.	public getGame()**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Function to prevent the use of white blocks while playing the game i.e., it provides the suitable format of the board for checkers.
+Function to prevent the use of white blocks while playing the game i.e., it provides the suitable format of <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+the board for checkers.
 
 
 ### 4. [PieceLocation](https://github.com/blank0826/AI-CheckersGame/blob/master/PieceLocation.java)
