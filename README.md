@@ -15,6 +15,7 @@ First we will define the rules of a Checkers Game and then will describe the obj
        an immediately neighbor vacant square.<br /><br />
 
 ### Capturing Movement Rules:<br />
+**While capturing**<br />
     4. To capture the opponent’s piece, a man moves from one square over a diagonally
         adjacent and forward square that is occupied by an opponent’s piece and on to a
         vacant square immediately beyond it. On completion of the jump the captured
