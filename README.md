@@ -1,5 +1,5 @@
 # AI-CheckersGame
-## Description
+# Description
 This is an AI-Human played Checkers Game where you can choose which algorithm to use while playing whether be it random or mini-max. The GUI has been created through **JavaFX** and code written through **JAVA**.
 
 First, we will define the rules of a Checkers Game and then will describe the objective of each class on how it helps in creating the gameplay.
@@ -212,13 +212,13 @@ These keep in the coordinates of the piece. Coordinates of the current position 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Run the [Logic.java](https://github.com/blank0826/AI-CheckersGame/blob/master/Logic.java) file and your checkers board will be displayed.<br />
 
 
-## Screenshots of the Gameplay
-### Initial Board
+# Screenshots of the Gameplay
+## Initial Board
 
 <img src="https://user-images.githubusercontent.com/33955028/140733653-8bd93c39-a3d8-4f6e-aaa0-ef4c91dcad36.png" width="450" height="450">
 
 
-### Menu 
+## Menu 
 **<ins>Algorithms</ins>**<br /><br />
 <img src="https://user-images.githubusercontent.com/33955028/140733721-30040e87-76bc-417d-a835-b0f55ed22c06.png" width="450" height="450">
 
@@ -227,17 +227,17 @@ These keep in the coordinates of the piece. Coordinates of the current position 
 <img src="https://user-images.githubusercontent.com/33955028/140733745-211690b1-f4e1-4fe3-8687-4bfd503fd516.png" width="450" height="450">
 
 
-### First Move
+## First Move
 After the human moves, the AI will move automatically<br /><br />
 
 <img src="https://user-images.githubusercontent.com/33955028/140734707-b187088b-b7db-4870-a320-75e807aac10f.png" width="450" height="450">
 
-### Middle of the Match
+## Middle of the Match
 
 <img src="https://user-images.githubusercontent.com/33955028/140734897-c83482a1-8422-4873-ab6c-a8da5df2b9c5.png" width="450" height="450">
 
-### Win Condition
+## Win Condition
 <img src="https://user-images.githubusercontent.com/33955028/140735144-363cc81c-9ade-4f26-9f13-6da3ab571f99.png" width="450" height="450">
 
-### Draw Condition
+## Draw Condition
 <img src="https://user-images.githubusercontent.com/33955028/140735044-eadb4d1d-bdf3-48ad-9ab1-3f721849f577.png" width="450" height="450">
