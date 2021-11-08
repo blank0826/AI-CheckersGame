@@ -243,4 +243,4 @@ After the human moves, the AI will move automatically<br /><br />
 <img src="https://user-images.githubusercontent.com/33955028/140735044-eadb4d1d-bdf3-48ad-9ab1-3f721849f577.png" width="450" height="450">
 
 # Contact
-### Aditya Srivastava
+## [Aditya Srivastava](mailto:aditya26052002@gmail.com?subject=GitHub)
