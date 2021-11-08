@@ -29,13 +29,16 @@ a king but may not make any further jumps in the same turn.**<br />
         there are two or more ways to jump, a player might select any one he wishes, not
         necessarily that which gains most pieces. Once started, a multiple jump must be
         carried through to completion.<br />
+        
 ### Definition of a Win
+
     8. The winner of the game is one who can make the last move; that is, no move is
 available to the opponent on his turn to play, either because all his pieces have
 been captured or his remaining pieces are all blocked.<br />
 ### Definition of a Draw
+
     9. The 50-move rule: The game shall be declared drawn if, at any stage of the game
-satisfy one of the followings:<br />
+         satisfy one of the followings:<br />
       a. Neither player has advanced an uncrowned man towards the king-row
 during the previous 50 moves.<br />
       b. No pieces have been removed from the board during the previous 50
