@@ -55,6 +55,7 @@ This class gives an exception when the piece is already occupied.<br />
 
 ### PieceLocation.Java
 ----
+This class keeps in the current location and checks if there is any piece left to catch or not.
 
 ### PieceType.Java
 ----
