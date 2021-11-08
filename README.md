@@ -23,9 +23,9 @@ First we will define the rules of a Checkers Game and then will describe the obj
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. The capturing movement of a king is similar to a man, but it can move both
         directions, forward and backward direction.<br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. The capturing move of the piece (man or king) is continued until all the jumps are
-        completed.<br />
+        completed.<br /><br />
 **Exception: if a man reaches the king-row by means of a capturing move, it then becomes
-a king but may not make any further jumps in the same turn.**<br />
+a king but may not make any further jumps in the same turn.**<br /><br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. All capturing moves are compulsory, whether offered actively or passively. If
         there are two or more ways to jump, a player might select any one he wishes, not
         necessarily that which gains most pieces. Once started, a multiple jump must be
@@ -33,12 +33,13 @@ a king but may not make any further jumps in the same turn.**<br />
         
 ### Definition of a Win
 
-**In the end,**
+**In the end,**<br />
     8. The winner of the game is one who can make the last move; that is, no move is
 available to the opponent on his turn to play, either because all his pieces have
 been captured or his remaining pieces are all blocked.<br />
 ### Definition of a Draw
 
+**Sometimes teh game may lead to a draw, then**<br />
     9. The 50-move rule: The game shall be declared drawn if, at any stage of the game
          satisfy one of the followings:<br />
       a. Neither player has advanced an uncrowned man towards the king-row
