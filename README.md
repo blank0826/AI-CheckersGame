@@ -208,10 +208,12 @@ These keep in the coordinates of the piece. Coordinates of the current position 
 
 ### Menu 
 **<ins>Algorithms</ins>**<br />
-![image](https://user-images.githubusercontent.com/33955028/140733721-30040e87-76bc-417d-a835-b0f55ed22c06.png)
+<img src="https://user-images.githubusercontent.com/33955028/140733721-30040e87-76bc-417d-a835-b0f55ed22c06.png" width="450" height="450">
+
 
 **<ins>Settings</ins>**<br />
-![image](https://user-images.githubusercontent.com/33955028/140733745-211690b1-f4e1-4fe3-8687-4bfd503fd516.png)
+<img src="https://user-images.githubusercontent.com/33955028/140733745-211690b1-f4e1-4fe3-8687-4bfd503fd516.png" width="450" height="450">
+
 
 ### First Move
 After the human moves the AI will move automatically
