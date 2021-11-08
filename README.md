@@ -50,8 +50,8 @@ This class gives an exception when the piece is already occupied.<br />
 ### Checkers.Java
 ----
 This class initializes the game board. it sets properties for the javaFX UI and adds menu giving the option of Algorithms and Settings.<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Algorithms having Random and Mini-max Algorithms.<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Setting having Reset and Exit.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. <ins>Algorithms:-</ins> Random and Mini-max Algorithms.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <ins>Settings:-</ins> Reset and Exit.<br />
 
 ### Logic.Java
 ----
