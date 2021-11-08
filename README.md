@@ -6,7 +6,7 @@ First we will define the rules of a Checkers Game and then will describe the obj
 
 ### Movement Rules:
  **A. The ordinary movement of a man:**<br />
-         1. A man moves diagonally forward left or right from one square to an immediately
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. A man moves diagonally forward left or right from one square to an immediately
            neighboring vacant square.<br />
          2. When a man reaches the farthest row forward (the king-row: top or bottom row
           for opponent player – marked with red in the diagram) it becomes a king.<br />
