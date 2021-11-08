@@ -1,4 +1,4 @@
-# AI-CheckersGame
+# <ins>**AI-CheckersGame**</ins>
 # Description
 This is an AI-Human played Checkers Game where you can choose which algorithm to use while playing whether be it random or mini-max. The GUI has been created through **JavaFX** and code written through **JAVA**.
 
@@ -244,4 +244,3 @@ After the human moves, the AI will move automatically<br /><br />
 
 # Contact
 ### Aditya Srivastava
-### [G-Mail](mailto:aditya26052002@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
