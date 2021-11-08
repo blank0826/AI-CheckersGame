@@ -57,7 +57,7 @@ This class initializes the game board. it sets properties for the javaFX UI and 
 ----
 This is the main class of the Checkers Game where the whole game takes place updating board, moving pieces and making all the algorithm based decisions.
 
-#### Functions Used
+#### <ins>Functions Used</ins>
 **1.	Logic (int algoNum)**<br />
 Constructor to initialize the board and display appropriate messages after each move is played.
 
