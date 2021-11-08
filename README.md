@@ -59,10 +59,12 @@ This is the main class of the Checkers Game where the whole game takes place upd
 
 ### **<ins>Functions Used</ins>**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1.	Logic (int algoNum)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Constructor to initialize the board and display appropriate messages after each move is played.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Constructor to initialize the board and display appropriate messages after each move is played.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.	public chooseAlgo(int algo, char[][] game, int depth, String player)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to switch between the two algorithms.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Function to switch between the two algorithms.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**3.	public moveMaker()**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function to determine which player should play when.
