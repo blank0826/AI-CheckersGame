@@ -68,7 +68,7 @@ This class gives an exception when the piece is already occupied.<br />
 
 ### Pieces.Java
 ----
-These help to create each piece in the game. <br/>The main two functions used in this class:
+These help to create each piece in the game. The main two functions used in this class:
 ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>public void make(Graphics graphics, int j, int i)</ins>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   This one gets the graphics and create the piece at the location (i, j) on the board.
 
