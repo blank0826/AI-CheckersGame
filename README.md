@@ -203,7 +203,14 @@ These keep in the coordinates of the piece. Coordinates of the current position 
 ## Screenshots of the Gameplay
 ### Initial Board
 
+![image](https://user-images.githubusercontent.com/33955028/140733653-8bd93c39-a3d8-4f6e-aaa0-ef4c91dcad36.png)
+
 ### Menu 
+**<ins>Algorithms</ins>**
+![image](https://user-images.githubusercontent.com/33955028/140733721-30040e87-76bc-417d-a835-b0f55ed22c06.png)
+
+**<ins>Settings</ins>**
+![image](https://user-images.githubusercontent.com/33955028/140733745-211690b1-f4e1-4fe3-8687-4bfd503fd516.png)
 
 ### First Move
 After the human moves the AI will move automatically
