@@ -63,13 +63,15 @@ This class gives an exception when the piece is already occupied.<br />
 ### PieceType.Java
 
 ### Pieces.Java
+----
 These help to create each piece in the game. <br/>
 The main two functions used in this class:
 ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>public void make(Graphics graphics, int j, int i)</ins>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This one gets the graphics and create the piece at the location(i,j) on the board.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   This one gets the graphics and create the piece at the location (i,j) on the board.
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>public static boolean within(int a, int b, int j, int i)</ins>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This checks if the piece is moving it stays within the board and doesn't try to move beyond the range of it.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   This checks if the piece is moving it stays within the board and doesn't try to move beyond the range of it.
 
 ### Turn.Java
+----
 These keep in the coordinates of the piece. Coordinates of current position and to where the piece has moved.
