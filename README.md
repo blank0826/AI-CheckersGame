@@ -203,9 +203,9 @@ These keep in the coordinates of the piece. Coordinates of the current position 
 
 # Getting Started
 
-## <ins>Pre-Requisites</ins>
+## Pre-Requisites
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An IDE that supports Java and JavaFX.
-## <ins>Installation and Execution</ins>
+## Installation and Execution
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Pull this code into any folder.<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Open this folder in your preferred file.<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Build the Project.<br />
