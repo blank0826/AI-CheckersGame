@@ -203,14 +203,14 @@ These keep in the coordinates of the piece. Coordinates of the current position 
 
 ## C. Getting Started
 
-### Pre-Requisites
+### <ins>Pre-Requisites</ins>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An IDE that supports Java and JavaFX.
-### Installation and Execution
-1. 
+### <ins>Installation and Execution</ins>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Pull this code into any folder.
+2. Open this folder in your preferred file.
+3. Build the Project.
+4. Run the [Logic.java](https://github.com/blank0826/AI-CheckersGame/blob/master/Logic.java) file and your checkers board will be displayed.
 
-### 1. [AlreadyOccupied](https://github.com/blank0826/AI-CheckersGame/blob/master/AlreadyOccupiedException.java)
-----
-This class gives an exception when the piece is already occupied.<br />
 
 ## Screenshots of the Gameplay
 ### Initial Board
