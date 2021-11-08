@@ -2,7 +2,7 @@
 ## Description
 This is an AI-Human played Checkers Game where you can choose which algorithm to use while playing whether be it random or mini-max. The GUI has been created through **JavaFX** and code written through **JAVA**.
 
-First, we will define the rules of a Checkers Game and then will describe the objective of Each Class on how it helps in creating the gameplay.
+First, we will define the rules of a Checkers Game and then will describe the objective of each class on how it helps in creating the gameplay.
 
 ## A. Rules
 
@@ -58,7 +58,7 @@ This class initializes the game board. it sets properties for the javaFX UI and 
 ----
 This is the main class of the Checkers Game where the whole game takes place updating the board, moving pieces, and making all the algorithm-based decisions.
 
-### **<ins>Functions Used</ins>**
+### **<ins>Member Functions</ins>**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1.	Logic (int algoNum)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Constructor to initialize the board, maintain what functions to be called whenever a piece is moved or <br />
