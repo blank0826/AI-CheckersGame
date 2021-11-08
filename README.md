@@ -96,7 +96,7 @@ that if the piece that is being moved stays within the limits or is not breaking
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Functions checks for all the possible moves for capturing a piece and if no piece can be captured then it <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-will just look for possible moves that can be done in the game. This is used when the AI has to play its chance. 
+will just look for possible moves that can be done in the game. Used when the AI has to play its chance. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**8.	public captureTurnPerformed(char[][] game, int x1, int y1, int x2, int y2)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
