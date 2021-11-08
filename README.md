@@ -60,31 +60,31 @@ This is the main class of the Checkers Game where the whole game takes place upd
 ### **<ins>Functions Used</ins>**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1.	Logic (int algoNum)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Constructor to initialize the board and display appropriate messages after each move is played.
+Constructor to initialize the board, maintain what functions to be called whenever a piece is moved or selected, display appropriate messages after each move is played.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.	public chooseAlgo(int algo, char[][] game, int depth, String player)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Function to switch between the two algorithms.
+Function defined so as to switch between the two algorithms.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**3.	public moveMaker()**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Function to determine which player should play when.
+Function that determines how the player has moved and then will play for the AI based on the algorithm that we have choosen.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**4.	public taken (char [][] game, int x1, int y1, int x2, int y2)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Function to implement capturing moves by the opponent.
+Function implements the feature of capturing a piece. It checks which piece has been captured re-adjust the board and pieces according to that. Also sees whether the piece should be converted to a king or not.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**5.	public checkKing(char [][] game)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Function to check if a piece is eligible to become a king or not.
+Function to check if the piece has landed on the last row of its opponent and if it has it should be converted to a king.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**6.	public checkPos(int x1, int y1, int x2, int y2, char[][] game, boolean errorMessage)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Function to check if a move is valid or not.
+This ensures that if a piece can be captured then no other move can be made. Besides that it also checks that if the piece that is being moved stays within the limits or is not breaking the rules of the game.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**7.	public getCorrectPos(String team, char[][] game)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Function to create a list of moves for either of the teams.
+Functions checks for all the possible moves for capturing a piece and if no piece can be captured then it will just look for possible moves that can be done in the game. This is used when the AI has to play its chance. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**8.	public captureTurnPerformed(char[][] game, int x1, int y1, int x2, int y2)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -92,7 +92,7 @@ Function to check if the move just performed was a capturing move or not.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**9.	public captureTurnAt(char[][] game, int col, int row)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Function to find whether a capture move exists at the given co-ordinates or not.
+Function to find whether a capture move can be done at the given co-ordinates or not.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**10.	public checkCaptureMove(char[][] game, String player)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
