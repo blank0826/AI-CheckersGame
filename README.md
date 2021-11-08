@@ -51,6 +51,7 @@ moves.<br /><br />
 ## B. Objective of Each Class
 
 ### AlreadyOccupied.Java
+----
 This class gives an exception when the piece is already occupied.<br />
 
 ### Checkers.Java
