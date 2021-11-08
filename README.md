@@ -226,5 +226,8 @@ Random Algorithm
 <img src="https://user-images.githubusercontent.com/33955028/140734897-c83482a1-8422-4873-ab6c-a8da5df2b9c5.png" width="450" height="450">
 
 ### Win Condition
+<img src="https://user-images.githubusercontent.com/33955028/140735144-363cc81c-9ade-4f26-9f13-6da3ab571f99.png" width="450" height="450">
 
 ### Draw Condition
+<img src="https://user-images.githubusercontent.com/33955028/140735044-eadb4d1d-bdf3-48ad-9ab1-3f721849f577.png" width="450" height="450">
+
