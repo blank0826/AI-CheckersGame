@@ -1,6 +1,6 @@
 # <ins>**AI-CheckersGame**</ins>
 # Description
-This is an AI-Human played Checkers Game where you can choose which algorithm to use while playing whether be it random or mini-max. The GUI has been created through **JavaFX** and code written through **JAVA**.
+This is a Checkers Game played between the human user and the AI where you can choose which algorithm to use while playing whether be it random or mini-max. The GUI has been created through **JavaFX** and code written through **JAVA**.
 
 First, we will define the rules of a Checkers Game and then will describe the objective of each class on how it helps in creating the gameplay.
 
